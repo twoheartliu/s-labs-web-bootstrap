@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <!---->
+    <link
+      href="css/bootstrap.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/swipebox.css" />
+    <!---->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <!---->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/numscroller-1.0.js"></script>
+    <!---->
+    <link
+      href="http://fonts.googleapis.com/css?family=Voltaire"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--startsmothscrolling-->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+
+    <!-- swiper -->
+    <script src="./js/swiper.min.js"></script>
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+    </style>
+    <!-- <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event) {
+          event.preventDefault();
+          $("html,body").animate(
+            { scrollTop: $(this.hash).offset().top },
+            1200
+          );
+        });
+      });
+    </script> -->
+    <!--script-->
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+      $(function() {
+        $("#slider").responsiveSlides({
+          auto: true,
+          nav: true,
+          speed: 500,
+          namespace: "callbacks",
+          pager: true
+        });
+      });
+    </script>
+    <!-- swipe box js -->
+    <script src="js/jquery.swipebox.min.js"></script>
+    <script type="text/javascript">
+      jQuery(function($) {
+        $(".swipebox").swipebox();
+      });
+    </script>
+
+    <!-- //swipe box js -->
+    <link rel="stylesheet" href="./css/new.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--header-->
+    <div class="index">
+      <div class="container">
+        <div class="navigation wow fadeInLeft animated" data-wow-delay=".5s">
+          <nav class="navbar navbar-default">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1"
+              >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse nav-wil nav-class"
+              id="bs-example-navbar-collapse-1"
+            >
+              <a href="./index.html" target="_self"
+                ><img
+                  src="./source/链平方logo1.png"
+                  style="height: 70px;margin-top: 5px;margin-right: 130px; object-position: center center;
+                            object-fit: cover;float: left;"
+                  alt="logo"
+                  class="scroll"
+              /></a>
+
+              <ul class="nav navbar-nav navbar-right link-effect">
+                <li><a href="./index.html" class="scroll">首页 </a></li>
+                <li>
+                  <a href="javascript:;" class="scroll">解决方案</a>
+                  <ul>
+                    <li>
+                      <a href="./html/plan/finance.html"
+                        >供应链金融</a
+                      >
+                    </li>
+                    <li>
+                      <a href="http://www.apple.com/macbookpro/" target="_blank"
+                        >ABS</a
+                      >
+                    </li>
+                    <li>
+                      <a href="http://www.apple.com/macmini/" target="_blank"
+                        >资产交易</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="javascript:;" class="scroll">产品服务</a>
+                  <ul>
+                    <li>
+                      <a href="http://www.apple.com/macbookair/" target="_blank"
+                        >大数据风控</a
+                      >
+                    </li>
+                    <li>
+                      <a href="http://www.apple.com/macbookpro/" target="_blank"
+                        >贷后管理平台</a
+                      >
+                    </li>
+                    <li>
+                      <a href="http://www.apple.com/macmini/" target="_blank"
+                        >上游资金管理</a
+                      >
+                    </li>
+                    <li>
+                      <a href="http://www.apple.com/macmini/" target="_blank"
+                        >核心企业信用传递</a
+                      >
+                    </li>
+                    <li>
+                      <a href="http://www.apple.com/macmini/" target="_blank"
+                        >区块链订单贷</a
+                      >
+                    </li>
+                    <li>
+                      <a href="http://www.apple.com/macmini/" target="_blank"
+                        >资产管理平台</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="javascript:;" class="scroll">关于链平方</a>
+                  <ul>
+                    <li>
+                      <a href="javascript:;"
+                        >企业介绍</a
+                      >
+                      <ul>
+                        <li>
+                          <a
+                            href="http://www.apple.com/macbookair/"
+                            target="_blank"
+                            >企业简介</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="http://www.apple.com/macbookpro/"
+                            target="_blank"
+                            >发展历程</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="http://www.apple.com/macmini/"
+                            target="_blank"
+                            >管理团队</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="http://www.apple.com/macmini/"
+                            target="_blank"
+                            >企业文化</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="http://www.apple.com/macmini/"
+                            target="_blank"
+                            >荣誉证书</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="http://www.apple.com/macbookpro/" target="_blank"
+                        >新闻中心</a
+                      >
+                    </li>
+                    <li>
+                      <a href="http://www.apple.com/macmini/" target="_blank"
+                        >联系我们</a
+                      >
+                    </li>
+                    <li>
+                      <a href="http://www.apple.com/macmini/" target="_blank"
+                        >加入我们</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </nav>
+        </div>
+      </div>
+      <!-- Swiper -->
+      <div class="swiper-container" id="swiper_container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="./source/轮播图/StockSnap_6FOTSJ06WB_optimized.jpg"
+              alt=""
+              style="width:100vw;height: 500px;object-position: center center;
+                object-fit: cover;"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./source/轮播图/StockSnap_K5CXXZEVUX_optimized.jpg"
+              alt=""
+              class="img"
+              style="width:100vw;height: 500px;object-position: center center;
+                object-fit: cover;"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./source/轮播图/gratisography-black-white-city-street_optimized.jpg"
+              alt=""
+              class="img"
+              style="width:100vw;height: 500px;object-position: center center;
+                object-fit: cover;"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./source/轮播图/medium__Pcwl5tp7xzzvC-AeAUgSCCbwyJFry59kZkqimtXNnY_optimized.jpg"
+              alt=""
+              class="img"
+              style="width:100vw;height: 500px;object-position: center center;
+                object-fit: cover;"
+            />
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+      </div>
+    </div>
+    <div class="content">
+      <!--about-->
+      <div class="about-w3" id="about">
+        <div class="container">
+          <h2 class="tittle"><span>[</span> 产品服务 <span>]</span></h2>
+          <p class="about-text">产品服务的一些描述</p>
+          <div class="about-grids">
+            <div class="col-md-4 about-grid">
+              <div class="about-top">
+                <h4>
+                  <i class="glyphicon glyphicon-bell" aria-hidden="true"></i
+                  >大数据风控
+                </h4>
+                <span></span>
+              </div>
+              <p>基于大数据的安全风控手段</p>
+            </div>
+            <div class="col-md-4 about-grid">
+              <div class="about-top">
+                <h4>
+                  <i
+                    class="glyphicon glyphicon-dashboard"
+                    aria-hidden="true"
+                  ></i
+                  >资产管理平台
+                </h4>
+                <span></span>
+              </div>
+              <p>整合经营数据和信贷数据输出风控评级；全生命周期资产管理</p>
+            </div>
+            <div class="col-md-4 about-grid">
+              <div class="about-top">
+                <h4>
+                  <i class="glyphicon glyphicon-send" aria-hidden="true"></i
+                  >核心企业信用传递
+                </h4>
+                <span></span>
+              </div>
+              <p>
+                将核心企业的信用穿透，促进全链条管理，成为信息和资金的中心。
+              </p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="about-grids">
+            <div class="col-md-4 about-grid">
+              <div class="about-top">
+                <h4>
+                  <i class="glyphicon glyphicon-tasks" aria-hidden="true"></i
+                  >上游资金管理
+                </h4>
+                <span></span>
+              </div>
+              <p>
+                基于供应商对核心企业的应收账款，<span style="color: red;"
+                  >智能系统自动计算，高效低错</span
+                >
+              </p>
+            </div>
+            <div class="col-md-4 about-grid">
+              <div class="about-top">
+                <h4>
+                  <i class="glyphicon glyphicon-bell" aria-hidden="true"></i
+                  >贷后管理平台
+                </h4>
+                <span></span>
+              </div>
+              <p>贷后实时动态监管，智能风控辅助决策，吸引更多资金方</p>
+            </div>
+            <div class="col-md-4 about-grid">
+              <div class="about-top">
+                <h4>
+                  <i class="glyphicon glyphicon-flag" aria-hidden="true"></i
+                  >区块链订单贷
+                </h4>
+                <span></span>
+              </div>
+              <p></p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <!--about-->
+      <!--services-->
+      <div class="services" id="services">
+        <div class="container">
+          <h3 class="tittle"><span>[</span> 我们的技术优势 <span>]</span></h3>
+          <p class="about-text1">技术优势表述</p>
+          <div class="service-grids">
+            <div class="col-md-4 ser-grid">
+              <!-- <div class="ser-left">
+                        <i class="glyphicon glyphicon-globe" aria-hidden="true"></i>
+                    </div> -->
+              <div class="ser-right">
+                <h4>无风险</h4>
+                <p>1. 无侵略性，不改变现有业务模式和流程。</p>
+                <p>2. 无风险，仅加密后数据上链，明文无泄漏。</p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="col-md-4 ser-grid">
+              <!-- <div class="ser-left">
+                        <i class="glyphicon glyphicon-signal" aria-hidden="true"></i>
+                    </div> -->
+              <div class="ser-right">
+                <h4>敏捷开发</h4>
+                <p>1. 部署时间短，效率高；</p>
+                <p>2. 技术部门压力轻；</p>
+                <p>3. 轻松自动升级维护。</p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="col-md-4 ser-grid">
+              <!-- <div class="ser-left" style="">
+                            <i class="glyphicon glyphicon-cog" aria-hidden="true"></i>
+                        </div>                  -->
+              <div class="">
+                <h4>对接成本低</h4>
+                <p>1. 人力资源投入少；</p>
+                <p>2. 收费方式灵活，性价比高。</p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <!-- <div class="service-grids">
+                <div class="col-md-4 ser-grid">
+                    <div class="ser-left">
+                        <i class="glyphicon glyphicon-heart" aria-hidden="true"></i>
+                    </div>
+                    <div class="ser-right">
+                        <h4>iOS App</h4>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore oluptate velit
+                            es pariatur</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-4 ser-grid">
+                    <div class="ser-left">
+                        <i class="glyphicon glyphicon-cloud" aria-hidden="true"></i>
+                    </div>
+                    <div class="ser-right">
+                        <h4>Android App</h4>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore oluptate velit
+                            es pariatur</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-4 ser-grid">
+                    <div class="ser-left">
+                        <i class="glyphicon glyphicon-flag" aria-hidden="true"></i>
+                    </div>
+                    <div class="ser-right">
+                        <h4>Windows App</h4>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore oluptate velit
+                            es pariatur</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div> -->
+        </div>
+      </div>
+      <!--services-->
+      <!-- gallery -->
+      <div class="gallery" id="portfolio">
+        <div class="container">
+          <h2 class="tittle ">我们的合作伙伴</h2>
+          <div class="flex-title">
+            <!-- <img src="./source/logo/NABA.png" alt=""> -->
+            <img src="./source/logo/X.png" alt="" />
+            <img src="./source/logo/r3.png" alt="" />
+            <img src="./source/logo/sl.png" alt="" />
+            <img src="./source/logo/万联网logo.jfif" alt="" />
+            <img src="./source/logo/云评众联.png" alt="" />
+            <img src="./source/logo/北大供销大数据集团.jfif" alt="" />
+            <img src="./source/logo/又一城logo.jpg" alt="" />
+            <img src="./source/logo/商链云.png" alt="" />
+            <img src="./source/logo/夏金.png" alt="" />
+            <img src="./source/logo/小米金融.png" alt="" />
+            <img src="./source/logo/帝牌男装 logo.png" alt="" />
+            <img src="./source/logo/微软logo.jpeg" alt="" />
+            <img src="./source/logo/德邦证券.jfif" alt="" />
+            <img src="./source/logo/易工程.png" alt="" />
+            <img src="./source/logo/稻普.png" alt="" />
+            <img src="./source/logo/立邦.jfif" alt="" />
+            <img src="./source/logo/算力.png" alt="" />
+            <img src="./source/logo/米筹金服 logo.png" alt="" />
+            <img src="./source/logo/融易学.png" alt="" />
+            <img src="./source/logo/金圆集团.jfif" alt="" />
+          </div>
+          <!-- <div class="gallery-grids">
+            <div class="col-md-4 gal-left">
+              <div class="content-grid-effect slow-zoom vertical text-center">
+                <a
+                  href="images/1.jpg"
+                  class="b-link-stripe b-animate-go  swipebox"
+                >
+                  <div class="img-box">
+                    <img
+                      src="images/1.jpg"
+                      alt="image"
+                      class="img-responsive zoom-img"
+                    />
+                  </div>
+
+                  <div class="info-box">
+                    <div class="info-content">
+                      <h4>Pecuniary</h4>
+                      <span class="separator"></span>
+                      <p>
+                        Ut enim ad minima veniam, quis nostrum exercitationem
+                        ullam corporis suscipit laboriosam
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 gal-left">
+              <div class="content-grid-effect slow-zoom vertical text-center">
+                <a
+                  href="images/2.jpg"
+                  class="b-link-stripe b-animate-go  swipebox"
+                >
+                  <div class="img-box">
+                    <img
+                      src="images/2.jpg"
+                      alt="image"
+                      class="img-responsive zoom-img"
+                    />
+                  </div>
+
+                  <div class="info-box">
+                    <div class="info-content">
+                      <h4>Pecuniary</h4>
+                      <span class="separator"></span>
+                      <p>
+                        Ut enim ad minima veniam, quis nostrum exercitationem
+                        ullam corporis suscipit laboriosam
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 gal-left">
+              <div class="content-grid-effect slow-zoom vertical text-center">
+                <a
+                  href="images/3.jpg"
+                  class="b-link-stripe b-animate-go  swipebox"
+                >
+                  <div class="img-box">
+                    <img
+                      src="images/3.jpg"
+                      alt="image"
+                      class="img-responsive zoom-img"
+                    />
+                  </div>
+
+                  <div class="info-box">
+                    <div class="info-content">
+                      <h4>Pecuniary</h4>
+                      <span class="separator"></span>
+                      <p>
+                        Ut enim ad minima veniam, quis nostrum exercitationem
+                        ullam corporis suscipit laboriosam
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 gal-left gal_mar">
+              <div class="content-grid-effect slow-zoom vertical text-center">
+                <a
+                  href="images/4.jpg"
+                  class="b-link-stripe b-animate-go  swipebox"
+                >
+                  <div class="img-box">
+                    <img
+                      src="images/4.jpg"
+                      alt="image"
+                      class="img-responsive zoom-img"
+                    />
+                  </div>
+
+                  <div class="info-box">
+                    <div class="info-content">
+                      <h4>Pecuniary</h4>
+                      <span class="separator"></span>
+                      <p>
+                        Ut enim ad minima veniam, quis nostrum exercitationem
+                        ullam corporis suscipit laboriosam
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 gal-left gal_mar">
+              <div class="content-grid-effect slow-zoom vertical text-center">
+                <a
+                  href="images/5.jpg"
+                  class="b-link-stripe b-animate-go  swipebox"
+                >
+                  <div class="img-box">
+                    <img
+                      src="images/5.jpg"
+                      alt="image"
+                      class="img-responsive zoom-img"
+                    />
+                  </div>
+
+                  <div class="info-box">
+                    <div class="info-content">
+                      <h4>Pecuniary</h4>
+                      <span class="separator"></span>
+                      <p>
+                        Ut enim ad minima veniam, quis nostrum exercitationem
+                        ullam corporis suscipit laboriosam
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 gal-left gal_mar">
+              <div class="content-grid-effect slow-zoom vertical text-center">
+                <a
+                  href="images/6.jpg"
+                  class="b-link-stripe b-animate-go  swipebox"
+                >
+                  <div class="img-box">
+                    <img
+                      src="images/6.jpg"
+                      alt="image"
+                      class="img-responsive zoom-img"
+                    />
+                  </div>
+
+                  <div class="info-box">
+                    <div class="info-content">
+                      <h4>Pecuniary</h4>
+                      <span class="separator"></span>
+                      <p>
+                        Ut enim ad minima veniam, quis nostrum exercitationem
+                        ullam corporis suscipit laboriosam
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 gal-left gal_mar">
+              <div class="content-grid-effect slow-zoom vertical text-center">
+                <a
+                  href="images/7.jpg"
+                  class="b-link-stripe b-animate-go  swipebox"
+                >
+                  <div class="img-box">
+                    <img
+                      src="images/7.jpg"
+                      alt="image"
+                      class="img-responsive zoom-img"
+                    />
+                  </div>
+
+                  <div class="info-box">
+                    <div class="info-content">
+                      <h4>Pecuniary</h4>
+                      <span class="separator"></span>
+                      <p>
+                        Ut enim ad minima veniam, quis nostrum exercitationem
+                        ullam corporis suscipit laboriosam
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 gal-left gal_mar">
+              <div class="content-grid-effect slow-zoom vertical text-center">
+                <a
+                  href="images/8.jpg"
+                  class="b-link-stripe b-animate-go  swipebox"
+                >
+                  <div class="img-box">
+                    <img
+                      src="images/8.jpg"
+                      alt="image"
+                      class="img-responsive zoom-img"
+                    />
+                  </div>
+
+                  <div class="info-box">
+                    <div class="info-content">
+                      <h4>Pecuniary</h4>
+                      <span class="separator"></span>
+                      <p>
+                        Ut enim ad minima veniam, quis nostrum exercitationem
+                        ullam corporis suscipit laboriosam
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 gal-left gal_mar">
+              <div class="content-grid-effect slow-zoom vertical text-center">
+                <a
+                  href="images/1.jpg"
+                  class="b-link-stripe b-animate-go  swipebox"
+                >
+                  <div class="img-box">
+                    <img
+                      src="images/1.jpg"
+                      alt="image"
+                      class="img-responsive zoom-img"
+                    />
+                  </div>
+
+                  <div class="info-box">
+                    <div class="info-content">
+                      <h4>Pecuniary</h4>
+                      <span class="separator"></span>
+                      <p>
+                        Ut enim ad minima veniam, quis nostrum exercitationem
+                        ullam corporis suscipit laboriosam
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div> -->
+        </div>
+      </div>
+      <!--gallery -->
+      <!--Testimonials-->
+      <!-- <div class="testimonials-w3ls">
+        <div class="container">
+            <h3 class="tittle"><span>[</span> Testimonials <span>]</span></h3>
+            <p class="about-text">Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad
+                litora torquent. per conubia nostra, per inceptos himenaeos. Nullam ac urna eu felis dapibus condimentum
+                sit. amet a augue.</p>
+            <div class="testimonials-grids">
+                <div class="col-md-2 testimonials-grid1 test1">
+                    <img src="images/t1.jpg" class="img-responsive" alt=""/>
+                </div>
+                <div class="col-md-10 testimonials-grid">
+                    <p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic
+                        ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay.
+                        Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin,
+                        sodium glutimate. Quote meon an estimate et non interruptus stadium.</p>
+                    <h5>Antonio Brightman</h5>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="testimonials-grids">
+                <div class="col-md-10 testimonials-grid">
+                    <p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic
+                        ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay.
+                        Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin,
+                        sodium glutimate. Quote meon an estimate et non interruptus stadium.</p>
+                    <h5>Brightman</h5>
+                </div>
+                <div class="col-md-2 testimonials-grid1 test">
+                    <img src="images/t3.jpg" class="img-responsive" alt=""/>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div> -->
+      <!--Testimonials-->
+      <!--count-->
+      <div class="count-agileits">
+        <div class="container">
+          <h3 class="tittle1" style="color: #00A0AF;">
+            <span>[</span> 我们的成就 <span>]</span>
+          </h3>
+          <div class="count-grids">
+            <div class="col-md-3 count-grid">
+              <i class="glyphicon glyphicon-filter" aria-hidden="true"></i>
+              <div class="count hvr-bounce-to-bottom">
+                <div
+                  class="numscroller numscroller-big-bottom"
+                  data-slno="1"
+                  data-min="0"
+                  data-max="105206"
+                  data-delay=".5"
+                  data-increment="100"
+                >
+                  105206
+                </div>
+                <span></span>
+                <h5>API 调用次数</h5>
+              </div>
+            </div>
+            <div class="col-md-3 count-grid">
+              <i class="glyphicon glyphicon-hand-left" aria-hidden="true"></i>
+              <div class="count hvr-bounce-to-bottom">
+                <div
+                  class="numscroller numscroller-big-bottom"
+                  data-slno="1"
+                  data-min="0"
+                  data-max="372"
+                  data-delay=".5"
+                  data-increment="100"
+                >
+                  372
+                </div>
+                <span></span>
+                <h5>服务过的供应商</h5>
+              </div>
+            </div>
+            <div class="col-md-3 count-grid">
+              <i class="glyphicon glyphicon-time" aria-hidden="true"></i>
+              <div class="count hvr-bounce-to-bottom">
+                <div
+                  class="numscroller numscroller-big-bottom"
+                  data-slno="1"
+                  data-min="0"
+                  data-max="10520"
+                  data-delay=".5"
+                  data-increment="100"
+                >
+                  10520
+                </div>
+                <span></span>
+                <h5>服务器稳定运行</h5>
+              </div>
+            </div>
+            <div class="col-md-3 count-grid">
+              <i class="glyphicon glyphicon-user" aria-hidden="true"></i>
+              <div class="count hvr-bounce-to-bottom">
+                <div
+                  class="numscroller numscroller-big-bottom"
+                  data-slno="1"
+                  data-min="0"
+                  data-max="256"
+                  data-delay=".5"
+                  data-increment="100"
+                >
+                  256
+                </div>
+                <span></span>
+                <h5>供应商</h5>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <!--count-->
+      <!--team-->
+      <!-- <div class="team-w3l" id="team">
+        <div class="container">
+            <h3 class="tittle"><span>[</span> Team <span>]</span></h3>
+            <p class="about-text">Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad
+                litora torquent. per conubia nostra, per inceptos himenaeos. Nullam ac urna eu felis dapibus condimentum
+                sit. amet a augue.</p>
+            <div class="team-grids">
+                <div class="slider">
+                    <div class="callbacks_container">
+                        <ul class="rslides" id="slider">
+                            <li>
+                                <div class="caption">
+                                    <div class="col-md-3 cap-left">
+                                        <img src="images/t1.jpg" class="img-responsive" alt=""/>
+                                        <div class="cap">
+                                            <h4>John Thomson</h4>
+                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore </p>
+                                            <div class="social-icons">
+                                                <a href="#"><i class="icon"></i></a>
+                                                <a href="#"><i class="icon1"></i></a>
+                                                <a href="#"><i class="icon2"></i></a>
+                                                <a href="#"><i class="icon3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 cap-left">
+                                        <img src="images/t2.jpg" class="img-responsive" alt=""/>
+                                        <div class="cap">
+                                            <h4>Mary Doe</h4>
+                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore </p>
+                                            <div class="social-icons">
+                                                <a href="#"><i class="icon"></i></a>
+                                                <a href="#"><i class="icon1"></i></a>
+                                                <a href="#"><i class="icon2"></i></a>
+                                                <a href="#"><i class="icon3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 cap-left">
+                                        <img src="images/t3.jpg" class="img-responsive" alt=""/>
+                                        <div class="cap">
+                                            <h4>Anderson</h4>
+                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore </p>
+                                            <div class="social-icons">
+                                                <a href="#"><i class="icon"></i></a>
+                                                <a href="#"><i class="icon1"></i></a>
+                                                <a href="#"><i class="icon2"></i></a>
+                                                <a href="#"><i class="icon3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 cap-left">
+                                        <img src="images/t4.jpg" class="img-responsive" alt=""/>
+                                        <div class="cap">
+                                            <h4>Anderson</h4>
+                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore </p>
+                                            <div class="social-icons">
+                                                <a href="#"><i class="icon"></i></a>
+                                                <a href="#"><i class="icon1"></i></a>
+                                                <a href="#"><i class="icon2"></i></a>
+                                                <a href="#"><i class="icon3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="caption">
+                                    <div class="col-md-3 cap-left">
+                                        <img src="images/t5.jpg" class="img-responsive" alt=""/>
+                                        <div class="cap">
+                                            <h4>John Thomson</h4>
+                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore </p>
+                                            <div class="social-icons">
+                                                <a href="#"><i class="icon"></i></a>
+                                                <a href="#"><i class="icon1"></i></a>
+                                                <a href="#"><i class="icon2"></i></a>
+                                                <a href="#"><i class="icon3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 cap-left">
+                                        <img src="images/t6.jpg" class="img-responsive" alt=""/>
+                                        <div class="cap">
+                                            <h4>Mary Doe</h4>
+                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore </p>
+                                            <div class="social-icons">
+                                                <a href="#"><i class="icon"></i></a>
+                                                <a href="#"><i class="icon1"></i></a>
+                                                <a href="#"><i class="icon2"></i></a>
+                                                <a href="#"><i class="icon3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 cap-left">
+                                        <img src="images/t4.jpg" class="img-responsive" alt=""/>
+                                        <div class="cap">
+                                            <h4>Anderson</h4>
+                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore </p>
+                                            <div class="social-icons">
+                                                <a href="#"><i class="icon"></i></a>
+                                                <a href="#"><i class="icon1"></i></a>
+                                                <a href="#"><i class="icon2"></i></a>
+                                                <a href="#"><i class="icon3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 cap-left">
+                                        <img src="images/t1.jpg" class="img-responsive" alt=""/>
+                                        <div class="cap">
+                                            <h4>Anderson</h4>
+                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                                dolore </p>
+                                            <div class="social-icons">
+                                                <a href="#"><i class="icon"></i></a>
+                                                <a href="#"><i class="icon1"></i></a>
+                                                <a href="#"><i class="icon2"></i></a>
+                                                <a href="#"><i class="icon3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+      <!--team-->
+      <div class="journal-w3l" id="news">
+        <div class="container">
+          <h3 class="tittle"><span>[</span> 企业动态 <span>]</span></h3>
+          <p class="about-text">企业动态的描述</p>
+          <div class="journal-grids">
+            <div class="col-md-4 journal-grid">
+              <a href="#" class="new-gri"
+                ><img
+                  src="./source/news/图片1.png"
+                  class="img-responsive"
+                  style="height: 230px;object-position:center center;object-fit: contain;"
+                  alt=""
+              /></a>
+              <div class="jou-text">
+                <!-- <div class="jou-left" style="width: 25%;">
+                  <h5>原创</h5>
+                </div> -->
+                <div class="jou-right">
+                  <h4>
+                    <a
+                      href="#"
+                      class="new-gri"
+                      style="font-size: 1.4em;height: 100px;"
+                      >再传捷报！链平方荣获“厦门市高新技术企业”荣誉称号</a
+                    >
+                  </h4>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <p class="jour-text">
+                链平方荣获“厦门高新技术企业”称号。此前，厦门市科学技术局发布《厦门市市级高新技术企业备案办法》称：
+                为加快培育高新技术企业后备队伍，壮大我市高新技术产业，针对国家高新技术企业认定前的培育阶段，择优递选具有较大发展潜力的科技型企业进入市级高新技术企业库备案并予以扶持。
+              </p>
+              <!-- <p class="jour-link">
+                <a href="#">John Doe</a> / <a href="#">Uncategorized</a> /
+                <a href="#">0 Comments</a>
+              </p> -->
+            </div>
+            <div class="col-md-4 journal-grid">
+              <a href="#" class="new-gri"
+                ><img
+                  src="./source/news/图片2.png"
+                  style="height: 230px;object-position:center center;object-fit: contain;"
+                  class="img-responsive"
+                  alt=""
+              /></a>
+              <div class="jou-text">
+                <!-- <div class="jou-left" style="width: 25%;">
+                  <h5>采集</h5>
+                </div> -->
+                <div class="jou-right">
+                  <h4>
+                    <a
+                      href="#"
+                      class="new-gri"
+                      style="font-size: 1.3em;height: 100px;"
+                      >链平方与中诚信征信签署战略合作协议</a
+                    >
+                  </h4>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <p class="jour-text">
+                中诚信征信是一家专业化、全方位的信用服务机构，服务领域包括传统金融机构、政府机构、互联网金融公司、互联网保险公司、行业协会、学术单位、事务所等。是目前中国营业网点最多、信用产品最全、信用风险管理经验最丰富、数据库最庞大的全国性信用风险管理机构之一。
+              </p>
+            </div>
+            <div class="col-md-4 journal-grid">
+              <a href="#" class="new-gri">
+                <img
+                  src="./source/news/图片3.png"
+                  style="height: 230px;object-position:center center;object-fit: contain;"
+                  class="img-responsive"
+                  alt=""
+              /></a>
+              <div class="jou-text">
+                <!-- <div class="jou-left" style="width: 25%;">
+                  <h5>原创</h5>
+                </div> -->
+                <div class="jou-right">
+                  <h4>
+                    <a
+                      href="#"
+                      class="new-gri"
+                      style="font-size: 1.3em;height: 100px;"
+                      >链平方与游够旅行签署战略合作协议</a
+                    >
+                  </h4>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <p class="jour-text">
+                链平方是一家金融科技公司，致力于金融科技创新业务。公司汇聚全球最具影响力的区块链极客和顶级金融专家，运用“区块链+大数据”等先进技术在供应链金融、ABS、资金清分、资产交易平台等多个场景纷纷落地。
+              </p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer" id="contact">
+      <div class="container">
+        <div style="margin:0 auto; text-align: center;margin-bottom: 30px;">
+          <img
+            src="./source/footer-logo.png"
+            style="width: 100px;object-position:center center;object-fit: cover;"
+            alt=""
+          />
+        </div>
+
+        <div class="footer-top">
+          <div class="col-md-3 footer-left">
+            <h4>关于我们</h4>
+            <p>企业简介</p>
+            <p>公司历程</p>
+            <p>企业文化</p>
+            <p>我们的团队</p>
+            <p>我们的荣誉</p>
+          </div>
+          <div class="col-md-3 footer-left">
+            <h4>解决方案</h4>
+            <p>智能清分</p>
+            <p>供应链金融</p>
+            <p>资产管理平台</p>
+            <p>贷后管理平台</p>
+            <p>ABS 资产证券化</p>
+          </div>
+          <div class="col-md-3 footer-left">
+            <h4>加入我们</h4>
+            <p>企业招聘</p>
+            <p>联系方式</p>
+          </div>
+          <div class="col-md-2 footer-right">
+            <h4>微信公众号</h4>
+            <div style="width: 100%;text-align: center;">
+              <img
+                src="./source/QR-code.jpeg"
+                style="width: 100px;object-position: center center;object-fit: cover;"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-2 footer-right">
+            <h4>联系我们</h4>
+            <div style="width: 100%;">
+              <p>联系人： 黄小姐</p>
+              <p>
+                电话：010-84722501
+              </p>
+              <p>
+                邮箱：info@s-labs.cn
+              </p>
+              <p>
+                地址：北京市朝阳区南湖东园122号博泰国际B座18层
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="footer-text">
+          <p>Copyright &copy; 2019.S-labs All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        /*
+        var defaults = {
+              containerID: 'home', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear'
+         };
+        */
+
+        $().UItoTop({ easingType: "easeOutQuart" });
+      });
+    </script>
+    <a href="#" id="home" style="display: block;">
+      <span id="toTopHover" style="opacity: 1;"> </span
+    ></a>
+
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content modal-info">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <!-- <div class="modal-body">
+            <div class="news-gr">
+              <img src="images/j.jpg" class="img-responsive" alt="" />
+              <h3 class="tittle">Pecuniary</h3>
+              <p>
+                Nam aliquam pretium feugiat. Duis sem est, viverra eu interdum
+                ac, suscipit nec mauris. Suspendisse commodo tempor sagittis! In
+                justo est, sollicitudin eu scelerisque pretium, placerat eget
+                elit. Praesent faucibus rutrum odio at rhoncus. Pel ermentum
+                pretium. Maecenas ac lacus ut neque rhoncus laoreet sed id
+                tellus. Donec justo tellus.
+              </p>
+              <p>
+                Nam aliquam pretium feugiat. Duis sem est, viverra eu interdum
+                ac, suscipit nec mauris. Suspendisse commodo tempor sagittis! In
+                justo est, sollicitudin eu scelerisque pretium, placerat eget
+                elit. Praesent faucibus rutrum odio at rhoncus. Pel ermentum
+                pretium. Maecenas ac lacus ut neque rhoncus laoreet sed id
+                tellus. Donec justo tellus.
+              </p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      });
+      /*鼠标移入停止轮播，鼠标离开 继续轮播*/
+      // var comtainer = document.getElementById('swiper_container');
+      // var video = document.querySelector('video');
+      // console.log('video', video.playing);
+      // comtainer.onclick = function () {
+      // 	console.log('mouse enter')
+      // 	swiper.autoplay = !(swiper.autoplay);
+      // };
+      // comtainer.onmouseleave = function () {
+      // 	console.log('mouse leave')
+      // 	swiper.autoplay = true;
+      // }
+    </script>
+  </body>
+</html>
