@@ -1,0 +1,28 @@
+.content .container .introduction {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.content .container .introduction h2 {
+  font-size: 28px;
+  margin: 40px 0;
+}
+.content .container .introduction .contents {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.content .container .introduction .contents p {
+  margin-top: 40px;
+  color: black;
+}
+.content .container .introduction .contents p .important {
+  font-weight: 600;
+}
+.banner-container .introduction {
+  color: #fff;
+  line-height: 2;
+  width: 50%;
+  margin-top: 80px;
+}
+.banner-container .introduction h1 {
+  margin-bottom: 10px;
+}
