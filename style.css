@@ -62,7 +62,7 @@ nav.nav-class > ul > li {
 #portfolio .container .flex-title {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   background: #fff;
   margin-top: 20px;
 }
@@ -70,7 +70,7 @@ nav.nav-class > ul > li {
   flex-shrink: 0;
   object-position: center center;
   object-fit: contain;
-  width: 200px;
+  width: 1040px;
 }
 .content .container h2.title {
   font-size: 36px !important;
