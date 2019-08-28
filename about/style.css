@@ -23,6 +23,29 @@
   font-weight: 600;
   color: black;
 }
+.content .container .team {
+  border: 1px solid #eee;
+  margin-top: 0px;
+  background: #fff;
+}
+.content .container .team .gallery-grids {
+  margin-top: 1px;
+}
+.content .container .culture {
+  border: 1px solid #eee;
+  margin: 40px 0;
+  background: #fff;
+}
+.content .container .culture h2 {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.content .container .culture .contents {
+  line-height: 2;
+  padding: 10px;
+}
 .banner-container .introduction {
   color: #fff;
   line-height: 2;

@@ -1,18 +1,21 @@
 .content .container .introduction {
+  border: 1px solid #ccc;
+  background: #fff;
   font-size: 18px;
-  margin-bottom: 40px;
-}
-.content .container .introduction h2 {
-  font-size: 28px;
   margin: 40px 0;
 }
+.content .container .introduction h2 {
+  font-size: 18px;
+  margin: 40px 0;
+  text-align: center;
+}
 .content .container .introduction .contents {
-  margin-left: 40px;
-  margin-top: 20px;
+  margin: 40px;
 }
 .content .container .introduction .contents p {
   margin-top: 40px;
-  color: black;
+  font-size: 16px;
+  color: #a0a0a0;
 }
 .content .container .introduction .contents p .important {
   font-weight: 600;
