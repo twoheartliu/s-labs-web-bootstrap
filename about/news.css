@@ -1,0 +1,65 @@
+.banner-container {
+  height: 500px;
+  background: #1565c0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../source/plan/供应链金融banner.png) center center, linear-gradient(150deg, #1565c0, #1468c3, #0f71cc, #0881da, #0091ea);
+  background-position: 50% 50%;
+}
+.content .container .introduction {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.content .container .introduction h2 {
+  font-size: 28px;
+  margin: 40px 0;
+}
+.content .container .introduction .contents {
+  padding: 20px;
+  border: 1px solid #eee;
+  background: #fff;
+}
+.content .container .introduction .contents .img-left {
+  float: left;
+  margin-right: 40px;
+}
+.content .container .introduction .contents .img-left img {
+  height: 300px;
+  object-position: center center;
+  object-fit: contain;
+}
+.content .container .introduction .contents .article-right {
+  line-height: 1.8;
+}
+.content .container .introduction .contents .article-right h4 {
+  font-size: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.content .container .introduction .contents .article-right .desc {
+  font-size: 14px;
+  color: #aaa;
+  margin: 10px 0;
+}
+.content .container .introduction .contents .article-right .content {
+  margin-top: 20px;
+  color: #ababab;
+  font-size: 15px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  width: 500px;
+}
+.banner-container .introduction {
+  color: #fff;
+  line-height: 2;
+  width: 50%;
+  margin-top: 80px;
+}
+.banner-container .introduction h1 {
+  margin-bottom: 10px;
+}

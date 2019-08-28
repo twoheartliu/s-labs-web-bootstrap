@@ -76,7 +76,7 @@ p {
 
 .nav>li>a {
     text-align: center;
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
     position: relative;
     padding: 30px 10px !important;
     letter-spacing: 1px;
@@ -178,7 +178,7 @@ p {
 
 h2.tittle {
     text-align: center;
-    font-size: 3.5em;
+    font-size: 36px;
     color: #00a0af;
 }
 
@@ -189,10 +189,18 @@ h3.tittle {
 }
 
 .about-grid h4 {
-    font-size: 2em;
+    font-size: 32px;
     text-transform: capitalize;
     color: #2F455D;
     padding: .3em 0;
+}
+
+.about-grid h4 img {
+    width: 32px;
+    height: 38px;
+    object-position: center center;
+    object-fit: contain;
+    margin: 5px;
 }
 
 .about-grid p {
@@ -219,7 +227,7 @@ p.about-text {
 }
 
 .about-top i {
-    font-size: 1.2em;
+    font-size: 32px;
     margin-right: 0.5em;
     color: #013040;
     vertical-align: sub;
@@ -248,8 +256,19 @@ p.about-text {
     width: 77%;
 }
 
+.ser-right h4 {
+    font-size: 32px;
+}
+
+.ser-right img {
+    width: 32px;
+    height: 38px;
+    object-position: center center;
+    object-fit: contain;
+}
+
 .ser-grid h4 {
-    font-size: 2em;
+    font-size: 32px;
     text-transform: capitalize;
     color: #fff;
 }
@@ -1043,10 +1062,23 @@ p.jour-link a:hover {
     float: left;
 }
 
+.footer-left h4 {
+    font-size: 16px;
+}
+
+.footer-right h4 {
+    font-size: 16px;
+}
+
+.footer-left p {
+    font-size: 14px;
+}
+
 .copyright {
     background-color: #9E8FD7;
     padding: 1em 1em;
     text-align: center;
+    font-size: 14px;
 }
 
 .copyright p {
@@ -1569,6 +1601,7 @@ p.jour-link a:hover {
     .services {
         padding: 2em 0;
     }
+
 
     .about-grids,
     .service-grids,

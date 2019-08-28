@@ -3,6 +3,12 @@
   object-fit: cover;
   border: 1px solid red;
 }
+.navbar-nav {
+  font-size: 16px !important;
+}
+.navbar-nav ul li {
+  font-size: 14px !important;
+}
 .nav-class ul {
   white-space: nowrap;
   /* 避免文字換行 */
@@ -65,4 +71,7 @@ nav.nav-class > ul > li {
   object-position: center center;
   object-fit: contain;
   width: 200px;
+}
+.content .container h2.title {
+  font-size: 36px !important;
 }
