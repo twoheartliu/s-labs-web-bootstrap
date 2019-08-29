@@ -1,5 +1,4 @@
 .finance-banner-container {
-  height: 500px;
   background: #1d226e;
 }
 .finance-banner-container img {
@@ -8,7 +7,6 @@
   width: 1140px;
 }
 .abs-banner-container {
-  height: 500px;
   background: #3d71f5;
 }
 .abs-banner-container img {
@@ -17,7 +15,6 @@
   width: 1140px;
 }
 .transaction-banner-container {
-  height: 500px;
   background: #3e0496;
 }
 .transaction-banner-container img {
