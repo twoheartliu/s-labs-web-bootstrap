@@ -6,6 +6,10 @@
   background: url(../source/plan/供应链金融banner.png) center center, linear-gradient(150deg, #1565c0, #1468c3, #0f71cc, #0881da, #0091ea);
   background-position: 50% 50%;
 }
+.content .container {
+  border: 1px solid red;
+  margin-top: -40px;
+}
 .content .container .introduction {
   font-size: 18px;
   margin-bottom: 40px;
