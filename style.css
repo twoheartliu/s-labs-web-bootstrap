@@ -1,3 +1,6 @@
+body {
+  background: #fff;
+}
 .index .container .swiper-wrapper .swiper-slide .img {
   object-position: center center;
   object-fit: cover;
@@ -20,7 +23,7 @@
 /* 設定母選單的連結樣式 */
 .nav-class ul li ul li a {
   text-decoration: none;
-  color: #fff;
+  color: black;
   padding: 10px 20px;
   display: block;
   background: url(detail.png) bottom right no-repeat;
@@ -29,13 +32,19 @@
 .nav-class ul li a:only-child {
   background: none;
 }
+.nav-class ul li:hover {
+  background: #ccc;
+  opacity: 0.8;
+  border-radius: 3px;
+  border: none;
+}
 .nav-class ul li ul li {
-  background: rgba(0, 0, 0, 0.5);
+  background: white;
   border-radius: 3px;
   border: none;
 }
 .nav-class ul li:hover > a {
-  color: #fff;
+  color: black;
 }
 .nav-class ul li:hover > ul {
   display: block;
@@ -50,7 +59,6 @@ nav.nav-class > ul > li {
   position: absolute;
   top: 100%;
   list-style: none;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   display: none;
 }
 /* 三級選單則顯示於二級選單的右方 */
@@ -112,7 +120,7 @@ nav.nav-class > ul > li {
   background: #777;
 }
 .nav-about-class ul li:hover > a {
-  color: #fff;
+  color: black;
 }
 .nav-about-class ul li.active > a {
   color: #002e3f;
@@ -131,11 +139,15 @@ nav.nav-class > ul > li {
   top: 100%;
   list-style: none;
   background: #fff;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
   display: none;
 }
 .nav-about-class ul ul ul {
   position: absolute;
   left: 100%;
   top: 0;
+}
+#swiper_container {
+  border-top: 80px solid white;
 }

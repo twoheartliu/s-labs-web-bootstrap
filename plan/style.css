@@ -39,6 +39,12 @@
   font-weight: 600;
   color: black;
 }
+.content .container .introduction .contents img {
+  width: 100%;
+  max-width: 1040px;
+  object-position: center center;
+  object-fit: contain;
+}
 .banner-container .introduction {
   color: #fff;
   line-height: 2;
