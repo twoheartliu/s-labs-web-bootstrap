@@ -1,5 +1,5 @@
 .banner-container {
-  height: 500px;
+  height: 420px;
   background: #1565c0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,4 +54,23 @@
 }
 .banner-container .introduction h1 {
   margin-bottom: 10px;
+}
+.contents-contact {
+  margin: 30px 0;
+}
+.contents-contact p {
+  line-height: 1.2;
+  margin: 10px 0;
+}
+.accordion button.collapsed {
+  font-size: 15px;
+}
+.accordion .card-body {
+  margin-left: 20px;
+}
+.accordion .card-body h4 {
+  margin: 20px 0;
+}
+.accordion .card-body p {
+  margin: 5px;
 }
