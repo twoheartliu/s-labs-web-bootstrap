@@ -167,7 +167,7 @@ nav.nav-class > ul > li {
 .nav-about-class ul li:hover > a {
   color: black;
 }
-.nav-about-class ul li.active > a {
+.nav-about-class ul li > a.active {
   color: #002e3f;
   font-weight: 500;
 }
