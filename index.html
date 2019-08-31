@@ -1208,12 +1208,19 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".swiper-container", {
-        spaceBetween: 30,
+        spaceBetween: 10,
         centeredSlides: true,
-        autoplay: true,
+        autoplay: {
+          delay: 3000 //1秒切换一次
+        },
+        effect: "fade",
+        fade: {
+          crossFade: true
+        },
+        // slidesPerView: 3,
         pagination: {
           el: ".swiper-pagination",
-          clickable: true
+          clickable: false
         },
         navigation: {
           nextEl: ".swiper-button-next",

@@ -54,15 +54,21 @@ body {
   .nav-class ul li a:only-child {
     background: none;
   }
-  .nav-class ul li:hover {
+  // .nav-class ul li:hover {
+  //   background: rgba(0, 0, 0, 0.7);
+  //   border-radius: 3px;
+  //   border: none;
+  // }
+
+  .nav-class ul li ul li:hover {
     background: rgba(0, 0, 0, 0.7);
-    border-radius: 3px;
+    // border-radius: 3px;
     border: none;
   }
   .nav-class ul li ul li {
     background: rgba(0, 0, 0, 0.5);
     // opacity: 0.5;
-    border-radius: 3px;
+    // border-radius: 3px;
     width: 150px;
     border: none;
   }
@@ -96,16 +102,16 @@ body {
 .nav-class ul li a:only-child {
   background: none;
 }
-.nav-class ul li:hover {
+.nav-class ul li ul li:hover {
   background: #ccc;
-  opacity: 0.8;
-  border-radius: 3px;
+  // opacity: 0;
+  // border-radius: 3px;
   border: none;
 }
 .nav-class ul li ul li {
   background: white;
   // opacity: 0.5;
-  border-radius: 3px;
+  // border-radius: 3px;
   width: 150px;
   border: none;
 }
@@ -125,7 +131,7 @@ nav.nav-class > ul > li {
   top: 100%;
   list-style: none;
   // background: #fff;
-  // box-shadow: 0 3px 3px white;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   display: none;
 }
 /* 三級選單則顯示於二級選單的右方 */
