@@ -1,5 +1,5 @@
 .finance-banner-container {
-  height: 300px;
+  height: 420px;
   text-align: center;
   background: #1d226e;
 }
@@ -8,12 +8,12 @@
   object-fit: contain;
   width: 100%;
   max-width: 1140px;
-  line-height: 300px;
-  height: 300px;
+  line-height: 420px;
+  height: 420px;
   text-align: center;
 }
 .abs-banner-container {
-  height: 300px;
+  height: 420px;
   text-align: center;
   background: #3d71f5;
 }
@@ -22,12 +22,12 @@
   object-fit: contain;
   width: 100%;
   max-width: 1140px;
-  line-height: 300px;
-  height: 300px;
+  line-height: 420px;
+  height: 420px;
   text-align: center;
 }
 .transaction-banner-container {
-  height: 300px;
+  height: 420px;
   text-align: center;
   background: #3e0496;
 }
@@ -36,8 +36,8 @@
   object-fit: contain;
   width: 100%;
   max-width: 1140px;
-  line-height: 300px;
-  height: 300px;
+  line-height: 420px;
+  height: 420px;
   text-align: center;
 }
 .content .container .introduction {
