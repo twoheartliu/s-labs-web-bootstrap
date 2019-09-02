@@ -1,29 +1,44 @@
 .finance-banner-container {
-  height: 420px;
+  height: 300px;
+  text-align: center;
   background: #1d226e;
 }
-.finance-banner-container img {
+.finance-banner-container .container img {
   object-position: center center;
   object-fit: contain;
+  width: 100%;
   max-width: 1140px;
+  line-height: 300px;
+  height: 300px;
+  text-align: center;
 }
 .abs-banner-container {
-  height: 420px;
+  height: 300px;
+  text-align: center;
   background: #3d71f5;
 }
-.abs-banner-container img {
+.abs-banner-container .container img {
   object-position: center center;
   object-fit: contain;
+  width: 100%;
   max-width: 1140px;
+  line-height: 300px;
+  height: 300px;
+  text-align: center;
 }
 .transaction-banner-container {
-  height: 420px;
+  height: 300px;
+  text-align: center;
   background: #3e0496;
 }
-.transaction-banner-container img {
+.transaction-banner-container .container img {
   object-position: center center;
   object-fit: contain;
+  width: 100%;
   max-width: 1140px;
+  line-height: 300px;
+  height: 300px;
+  text-align: center;
 }
 .content .container .introduction {
   font-size: 18px;
