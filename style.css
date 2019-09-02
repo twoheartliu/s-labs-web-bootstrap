@@ -1,5 +1,10 @@
 body {
   background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  /* font-size: 16px; */
+  color: #555f73;
+  margin: 0;
+  padding: 0;
 }
 .index .container .swiper-wrapper .swiper-slide .img {
   object-position: center center;
