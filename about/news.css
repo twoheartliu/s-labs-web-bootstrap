@@ -4,7 +4,7 @@
   box-sizing: border-box !important;
 }
 .banner-container {
-  height: 500px;
+  height: 420px;
   background: #1565c0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,21 +13,20 @@
 }
 .content .introduction .list {
   min-width: 1040px;
-  border: 1px solid red;
   display: flex;
   flex-flow: column wrap;
 }
 .content .introduction .list .list-cell {
   display: flex;
-  margin: 40px 0;
   justify-content: space-around;
+  padding: 40px 0;
+  border-bottom: 1px solid #d8d8d8;
 }
 .content .introduction .list .list-cell img {
-  border: 1px solid green;
   height: 200px;
   width: 500px;
   object-position: center center;
-  object-fit: contain;
+  object-fit: cover;
 }
 .content .introduction .list .list-cell article {
   height: 200px;
@@ -38,30 +37,30 @@
 .content .introduction .list .list-cell article .title {
   width: 500px;
   height: 50px;
-  line-height: 50px;
-  border: 1px solid blue;
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
 }
 .content .introduction .list .list-cell article .content {
   width: 500px;
   height: 100px;
-  border: 1px solid yellowgreen;
 }
 .content .introduction .list .list-cell article footer {
   display: flex;
   flex-flow: row wrap;
+  height: 50px;
+  padding-top: 30px;
 }
 .content .introduction .list .list-cell article footer .time {
   width: 300px;
-  height: 50px;
-  border: 1px solid blue;
+  color: #6a7599;
 }
 .content .introduction .list .list-cell article footer .detail {
   width: 200px;
-  height: 50px;
-  border: 1px solid blue;
+  display: flex;
+  justify-content: flex-end;
 }
 .banner-container .introduction {
-  border: 1px solid red;
   color: #fff;
   line-height: 2;
   width: 50%;

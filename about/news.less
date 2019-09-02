@@ -4,7 +4,7 @@
   box-sizing: border-box !important;
 }
 .banner-container {
-  height: 500px;
+  height: 420px;
   background: #1565c0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,19 +26,21 @@
     // border: 1px solid red;
     .list {
       min-width: 1040px;
-      border: 1px solid red;
+      // border: 1px solid red;
       display: flex;
       flex-flow: column wrap;
       .list-cell {
         display: flex;
-        margin: 40px 0;
+        // margin: 40px 0;
         justify-content: space-around;
+        padding: 40px 0;
+        border-bottom: 1px solid #d8d8d8;
         img {
-          border: 1px solid green;
+          // border: 1px solid green;
           height: 200px;
           width: 500px;
           object-position: center center;
-          object-fit: contain;
+          object-fit: cover;
         }
         article {
           // border: 1px solid red;
@@ -49,26 +51,33 @@
           .title {
             width: 500px;
             height: 50px;
-            line-height: 50px;
-            border: 1px solid blue;
+            // line-height: 50px;
+            padding-top: 10px;
+            // border: 1px solid blue;
+            font-weight: 500;
+            font-size: 16px;
           }
           .content {
             width: 500px;
             height: 100px;
-            border: 1px solid yellowgreen;
+            // border: 1px solid yellowgreen;
           }
           footer {
             display: flex;
             flex-flow: row wrap;
+            height: 50px;
+            padding-top: 30px;
+            // line-height: 50px;
             .time {
               width: 300px;
-              height: 50px;
-              border: 1px solid blue;
+              // border: 1px solid blue;
+              color: #6a7599;
             }
             .detail {
               width: 200px;
-              height: 50px;
-              border: 1px solid blue;
+              // border: 1px solid blue;
+              display: flex;
+              justify-content: flex-end;
             }
           }
         }
@@ -79,7 +88,7 @@
 
 .banner-container {
   .introduction {
-    border: 1px solid red;
+    // border: 1px solid red;
     color: #fff;
     line-height: 2;
     width: 50%;
