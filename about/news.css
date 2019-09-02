@@ -1,3 +1,8 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
 .banner-container {
   height: 500px;
   background: #1565c0;
@@ -6,59 +11,57 @@
   background: url(../source/plan/供应链金融banner.png) center center, linear-gradient(150deg, #1565c0, #1468c3, #0f71cc, #0881da, #0091ea);
   background-position: 50% 50%;
 }
-.content .container {
+.content .introduction .list {
+  min-width: 1040px;
   border: 1px solid red;
-  margin-top: -40px;
+  display: flex;
+  flex-flow: column wrap;
 }
-.content .container .introduction {
-  font-size: 18px;
-  margin-bottom: 40px;
-}
-.content .container .introduction h2 {
-  font-size: 28px;
+.content .introduction .list .list-cell {
+  display: flex;
   margin: 40px 0;
+  justify-content: space-around;
 }
-.content .container .introduction .contents {
-  padding: 20px;
-  border: 1px solid #eee;
-  background: #fff;
-}
-.content .container .introduction .contents .img-left {
-  float: left;
-  margin-right: 40px;
-}
-.content .container .introduction .contents .img-left img {
-  height: 300px;
+.content .introduction .list .list-cell img {
+  border: 1px solid green;
+  height: 200px;
+  width: 500px;
   object-position: center center;
   object-fit: contain;
 }
-.content .container .introduction .contents .article-right {
-  line-height: 1.8;
-}
-.content .container .introduction .contents .article-right h4 {
-  font-size: 20px;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-  overflow: hidden;
-}
-.content .container .introduction .contents .article-right .desc {
-  font-size: 14px;
-  color: #aaa;
-  margin: 10px 0;
-}
-.content .container .introduction .contents .article-right .content {
-  margin-top: 20px;
-  color: #ababab;
-  font-size: 15px;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5;
-  overflow: hidden;
+.content .introduction .list .list-cell article {
+  height: 200px;
   width: 500px;
+  display: flex;
+  flex-flow: column wrap;
+}
+.content .introduction .list .list-cell article .title {
+  width: 500px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid blue;
+}
+.content .introduction .list .list-cell article .content {
+  width: 500px;
+  height: 100px;
+  border: 1px solid yellowgreen;
+}
+.content .introduction .list .list-cell article footer {
+  display: flex;
+  flex-flow: row wrap;
+}
+.content .introduction .list .list-cell article footer .time {
+  width: 300px;
+  height: 50px;
+  border: 1px solid blue;
+}
+.content .introduction .list .list-cell article footer .detail {
+  width: 200px;
+  height: 50px;
+  border: 1px solid blue;
 }
 .banner-container .introduction {
+  border: 1px solid red;
   color: #fff;
   line-height: 2;
   width: 50%;

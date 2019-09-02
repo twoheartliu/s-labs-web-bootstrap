@@ -1,56 +1,86 @@
 .risk-banner-container {
   height: 420px;
+  text-align: center;
   background: #2a57f6;
 }
-.risk-banner-container img {
+.risk-banner-container .container img {
   object-position: center center;
   object-fit: contain;
+  width: 100%;
   max-width: 1140px;
+  line-height: 420px;
+  height: 420px;
+  text-align: center;
 }
 .after-banner-container {
   height: 420px;
+  text-align: center;
   background: #0082ff;
 }
-.after-banner-container img {
+.after-banner-container .container img {
   object-position: center center;
   object-fit: contain;
+  width: 100%;
   max-width: 1140px;
+  line-height: 420px;
+  height: 420px;
+  text-align: center;
 }
 .upstream-banner-container {
   height: 420px;
+  text-align: center;
   background: #6030ad;
 }
-.upstream-banner-container img {
+.upstream-banner-container .container img {
   object-position: center center;
   object-fit: contain;
+  width: 100%;
   max-width: 1140px;
+  line-height: 420px;
+  height: 420px;
+  text-align: center;
 }
 .core-banner-container {
   height: 420px;
+  text-align: center;
   background: #6260ef;
 }
-.core-banner-container img {
+.core-banner-container .container img {
   object-position: center center;
   object-fit: contain;
+  width: 100%;
   max-width: 1140px;
+  line-height: 420px;
+  height: 420px;
+  text-align: center;
 }
 .order-banner-container {
   height: 420px;
+  text-align: center;
   background: #0648b7;
 }
-.order-banner-container img {
+.order-banner-container .container img {
   object-position: center center;
   object-fit: contain;
+  width: 100%;
   max-width: 1140px;
+  line-height: 420px;
+  height: 420px;
+  text-align: center;
 }
 .property-banner-container {
   height: 420px;
+  text-align: center;
   background: #4f0dc6;
 }
-.property-banner-container img {
+.property-banner-container .container img {
   object-position: center center;
   object-fit: contain;
+  width: 100%;
   max-width: 1140px;
+  line-height: 420px;
+  height: 420px;
+  text-align: center;
 }
 .content .container .introduction {
   font-size: 18px;

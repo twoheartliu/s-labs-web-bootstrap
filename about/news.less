@@ -1,3 +1,8 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
 .banner-container {
   height: 500px;
   background: #1565c0;
@@ -17,60 +22,54 @@
 }
 
 .content {
-  .container {
-    border: 1px solid red;
-    margin-top: -40px;
-    .introduction {
-      font-size: 18px;
-      margin-bottom: 40px;
-      h2 {
-        font-size: 28px;
+  .introduction {
+    // border: 1px solid red;
+    .list {
+      min-width: 1040px;
+      border: 1px solid red;
+      display: flex;
+      flex-flow: column wrap;
+      .list-cell {
+        display: flex;
         margin: 40px 0;
-      }
-      .contents {
-        padding: 20px;
-        border: 1px solid #eee;
-        background: #fff;
-        .img-left {
-          float: left;
-          margin-right: 40px;
-          // border: 10px solid green;
-          img {
-            height: 300px;
-            object-position: center center;
-            object-fit: contain;
-          }
+        justify-content: space-around;
+        img {
+          border: 1px solid green;
+          height: 200px;
+          width: 500px;
+          object-position: center center;
+          object-fit: contain;
         }
-        .article-right {
-          line-height: 1.8;
-          h4 {
-            font-size: 20px;
-            // text-overflow: ellipsis;
-
-            display: -webkit-box;
-            -webkit-box-orient: vertical;
-            -webkit-line-clamp: 1; // 此处2代表两行,
-
-            overflow: hidden;
-            // width: 500px;
-          }
-          .desc {
-            font-size: 14px;
-            color: #aaa;
-            margin: 10px 0;
+        article {
+          // border: 1px solid red;
+          height: 200px;
+          width: 500px;
+          display: flex;
+          flex-flow: column wrap;
+          .title {
+            width: 500px;
+            height: 50px;
+            line-height: 50px;
+            border: 1px solid blue;
           }
           .content {
-            margin-top: 20px;
-            color: #ababab;
-            font-size: 15px;
-
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-box-orient: vertical;
-            -webkit-line-clamp: 5; // 此处2代表两行,
-            overflow: hidden;
             width: 500px;
-            // background-color: #0fa;
+            height: 100px;
+            border: 1px solid yellowgreen;
+          }
+          footer {
+            display: flex;
+            flex-flow: row wrap;
+            .time {
+              width: 300px;
+              height: 50px;
+              border: 1px solid blue;
+            }
+            .detail {
+              width: 200px;
+              height: 50px;
+              border: 1px solid blue;
+            }
           }
         }
       }
@@ -80,6 +79,7 @@
 
 .banner-container {
   .introduction {
+    border: 1px solid red;
     color: #fff;
     line-height: 2;
     width: 50%;
