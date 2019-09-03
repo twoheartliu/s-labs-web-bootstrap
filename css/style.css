@@ -689,7 +689,7 @@ h3.tittle1 {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 355px;
+    min-height: 200px;
     text-align: center;
     padding: 5em 0;
 }

@@ -14,7 +14,7 @@ body {
 .count-agileits .container {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .count-agileits .container .content {
   width: 400px;
