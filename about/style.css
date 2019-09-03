@@ -58,6 +58,12 @@
 .contents-contact {
   margin: 30px 0;
 }
+.contents-contact img {
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
 .contents-contact p {
   line-height: 1.2;
   margin: 10px 0;
