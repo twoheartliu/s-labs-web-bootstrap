@@ -13,6 +13,10 @@ body {
 }
 .navbar-nav {
   font-size: 16px !important;
+  margin-left: 80px;
+}
+.navbar-nav li a.scroll {
+  margin: 0 20px;
 }
 .navbar-nav ul li {
   font-size: 14px !important;
@@ -30,6 +34,7 @@ body {
   text-decoration: none;
   color: black;
   padding: 10px 20px;
+  margin-left: 8px;
   display: block;
   background: url(detail.png) bottom right no-repeat;
 }
@@ -42,6 +47,7 @@ body {
   text-decoration: none;
   color: white;
   padding: 10px 20px;
+  margin-left: 4px;
   display: block;
   background: url(detail.png) bottom right no-repeat;
 }
@@ -54,7 +60,7 @@ body {
 }
 .main .nav-class ul li ul li {
   background: rgba(0, 0, 0, 0.5);
-  width: 150px;
+  width: 170px;
   border: none;
 }
 .main .nav-class ul li:hover > a {
@@ -89,7 +95,7 @@ body {
 }
 .nav-class ul li ul li {
   background: white;
-  width: 150px;
+  width: 170px;
   border: none;
 }
 .nav-class ul li:hover > a {
@@ -203,4 +209,13 @@ nav.nav-class > ul > li {
 }
 .main #swiper_container {
   border-top: 0px solid white;
+}
+#news .journal-grids p.jour-text {
+  margin-top: 40px;
+  padding: 0;
+}
+.iframes h2 {
+  font-size: 30px !important;
+  margin: 0 auto;
+  text-align: center;
 }

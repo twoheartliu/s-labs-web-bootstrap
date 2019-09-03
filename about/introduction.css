@@ -1,12 +1,14 @@
+.content .container #inner-nav ul {
+  border: none !important;
+}
 .content .container .introduction {
-  border: 1px solid #ccc;
   background: #fff;
   font-size: 18px;
   margin: 40px 0;
 }
 .content .container .introduction h2 {
   font-size: 18px;
-  margin: 40px 0;
+  margin: 40px auto;
   text-align: center;
 }
 .content .container .introduction .contents {
