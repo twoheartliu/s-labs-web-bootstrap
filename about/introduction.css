@@ -22,6 +22,20 @@
 .content .container .introduction .contents p .important {
   font-weight: 600;
 }
+.banner-container {
+  border: 1px solid red;
+  background: #2c2542;
+}
+.banner-container video {
+  display: block;
+  width: 1150px;
+  margin: 0 auto;
+  max-width: 1150px;
+  text-align: center;
+  height: 420px;
+  object-fit: cover;
+  border: 1px solid red;
+}
 .banner-container .introduction {
   color: #fff;
   line-height: 2;
