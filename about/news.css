@@ -33,6 +33,7 @@
   width: 500px;
   display: flex;
   flex-flow: column wrap;
+  font-size: 14px;
 }
 .content .introduction .list .list-cell article .title {
   width: 500px;
