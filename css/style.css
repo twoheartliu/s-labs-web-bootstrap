@@ -273,17 +273,17 @@ p.about-text {
 
 .ser-right {
   /* float: left; */
-  width: 200px;
+  width: 220px;
   /* height: 200px; */
   font-size: 16px;
   padding: 10px;
   /* border: 1px solid #00a0af; */
 }
 
-.ser-right p {
+.ser-right ol li {
   /* float: left; */
   font-size: 16px;
-  color: white;
+  color: whitesmoke;
   line-height: 2;
   /* border: 1px solid blue; */
 }
