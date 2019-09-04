@@ -96,8 +96,55 @@
 }
 .content .container .introduction .contents p {
   margin-top: 40px;
+  margin-bottom: 5px;
   font-weight: 600;
+  font-size: 21px;
+  color: #4d4949;
+}
+.content .container .introduction .contents img {
+  width: 100%;
+  max-width: 1140px;
+  object-position: center center;
+  object-fit: contain;
+}
+.content .container .introduction .lists {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.content .container .introduction .lists section {
+  border: 1px solid #93b2bb;
+  width: 532px;
+  height: 138px;
+  display: flex;
+  margin: 10px;
+}
+.content .container .introduction .lists section .content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.content .container .introduction .lists section .content p {
+  font-size: 16px;
   color: black;
+  padding: 5px 0;
+}
+.content .container .introduction .lists section .content span {
+  font-size: 14px;
+}
+.content .container .introduction .lists section .img {
+  height: 138px;
+  width: 138px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .container .introduction .lists section .img img {
+  display: block;
+  width: 56px;
+  height: 56px;
+  object-position: center center;
+  object-fit: contain;
 }
 .banner-container .introduction {
   color: #fff;
