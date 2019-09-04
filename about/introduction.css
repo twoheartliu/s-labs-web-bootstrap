@@ -23,14 +23,9 @@
   font-weight: 600;
 }
 .banner-container {
-  background: #1c162b;
-  background: -moz-linear-gradient(left, #1c162b 0%, #1c162b 24%, #33274b 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, #1c162b), color-stop(24%, #1c162b), color-stop(100%, #33274b));
-  background: -webkit-linear-gradient(left, #1c162b 0%, #1c162b 24%, #33274b 100%);
-  background: -o-linear-gradient(left, #1c162b 0%, #1c162b 24%, #33274b 100%);
-  background: -ms-linear-gradient(left, #1c162b 0%, #1c162b 24%, #33274b 100%);
-  background: linear-gradient(to right, #1c162b 0%, #1c162b 24%, #33274b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1c162b', endColorstr='#33274b', GradientType=1);
+  background: #1d1530;
+  background: linear-gradient(to right, #1d1632 0%, #1d1632 30%, #33274b 81%, #33274b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1d1632', endColorstr='#33274b', GradientType=1);
 }
 .banner-container video {
   display: block;
