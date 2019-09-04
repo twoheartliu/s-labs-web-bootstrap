@@ -1,5 +1,5 @@
 .swipebox-overflow-hidden {
-  overflow: hidden!important;
+  overflow: hidden !important;
 }
 
 #swipebox-overlay img {
@@ -56,7 +56,8 @@
   vertical-align: middle;
 }
 
-#swipebox-action, #swipebox-caption {
+#swipebox-action,
+#swipebox-caption {
   position: absolute;
   left: 0;
   z-index: 999;
@@ -72,7 +73,7 @@
 }
 
 #swipebox-action.force-visible-bars {
-  bottom: 0!important;
+  bottom: 0 !important;
 }
 
 #swipebox-caption {
@@ -84,15 +85,16 @@
 }
 
 #swipebox-caption.force-visible-bars {
-  top: 0!important;
+  top: 0 !important;
 }
 
-#swipebox-action #swipebox-prev, #swipebox-action #swipebox-next,
+#swipebox-action #swipebox-prev,
+#swipebox-action #swipebox-next,
 #swipebox-action #swipebox-close {
   background-image: url(../images/icons.png);
   background-repeat: no-repeat;
-  border: none!important;
-  text-decoration: none!important;
+  border: none !important;
+  text-decoration: none !important;
   cursor: pointer;
   position: absolute;
   width: 50px;
@@ -193,10 +195,17 @@
   background: rgba(13, 13, 13, 0.9);
 }
 
-#swipebox-action, #swipebox-caption {
+#swipebox-action,
+#swipebox-caption {
   text-shadow: 1px 1px 1px black;
   background-color: rgba(13, 13, 13, 0.9);
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(13, 13, 13, 0.9)), color-stop(100%, #000000));
+  background-image: -webkit-gradient(
+    linear,
+    50% 0%,
+    50% 100%,
+    color-stop(0%, rgba(13, 13, 13, 0.9)),
+    color-stop(100%, #000000)
+  );
   background-image: -webkit-linear-gradient(rgba(13, 13, 13, 0.9), #000000);
   background-image: -moz-linear-gradient(rgba(13, 13, 13, 0.9), #000000);
   background-image: -o-linear-gradient(rgba(13, 13, 13, 0.9), #000000);
@@ -215,13 +224,13 @@
 }
 
 #swipebox-caption {
-  color: white!important;
+  color: white !important;
   font-size: 15px;
   line-height: 43px;
-  font-family: Helvetica, Arial, sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif; */
 }
- @media screen and (max-width:640px){
-	#swipebox-slider .slide img {
-		width: 65%;
-	}
+@media screen and (max-width: 640px) {
+  #swipebox-slider .slide img {
+    width: 65%;
+  }
 }
