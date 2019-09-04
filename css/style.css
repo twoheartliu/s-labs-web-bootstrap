@@ -242,6 +242,9 @@ p.about-text {
 .journal-grids {
   margin-top: 4em;
 }
+.about-top a {
+  text-decoration: none;
+}
 
 .about-top i {
   font-size: 32px;
