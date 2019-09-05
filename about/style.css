@@ -76,32 +76,39 @@
 .banner-container .introduction h1 {
   margin-bottom: 10px;
 }
-.contents-contact {
+#contents-contact {
+  box-sizing: border-box;
   margin: 30px 0;
   display: flex;
+  flex-flow: row wrap;
 }
-.contents-contact img {
-  width: 800px;
-  margin: 0 auto;
-  text-align: center;
+#contents-contact .img {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+#contents-contact .img img {
+  width: 900px;
+  height: 500px;
   object-position: center center;
   object-fit: contain;
-  display: block;
 }
-.contents-contact .contents {
-  margin: 10px 0;
-  font-size: 16px;
+#contents-contact .contents {
+  height: 500px;
+  width: 230px;
   margin: 0;
+  font-size: 16px;
   padding: 0;
   line-height: 1.2;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
 }
-.contents-contact .contents p {
-  margin: 10px 0 !important;
-  font-weight: normal !important;
-  color: #555f73 !important;
+#contents-contact .contents p {
+  margin: 10px 0;
+  font-weight: normal;
+  color: #555f73;
 }
 .accordion button.collapsed {
   font-size: 15px;
