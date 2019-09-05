@@ -520,11 +520,15 @@
           var bHeight = iframe.contentWindow.document.body.scrollHeight;
           var dHeight =
             iframe.contentWindow.document.documentElement.scrollHeight;
-          var height = Math.max(bHeight, dHeight);
+          // var height = Math.max(bHeight, dHeight);
+          var height = bHeight;
           iframe.height = height;
           // console.log(height);
+          console.log(bHeight);
+          console.log(dHeight);
         } catch (ex) {}
       }
+      // reinitIframe();
       window.setInterval("reinitIframe()", 200);
     </script>
     <script>
