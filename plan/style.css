@@ -73,9 +73,24 @@
 .banner-container .introduction h1 {
   margin-bottom: 10px;
 }
-#logic h2 {
-  margin-bottom: 0;
+.middle-area {
+  background: #f5f6f6;
+  margin: 20px 0;
 }
-#logic .contents {
-  margin: 0;
+.middle-area h2 {
+  margin: 30px auto !important;
+  text-align: center;
+}
+.middle-area img {
+  width: 100%;
+  object-position: center center;
+  object-fit: contain;
+  padding: 30px;
+  padding-top: 0;
+}
+#content .about-w3 {
+  padding: 0;
+}
+.content .about-w3 {
+  padding-top: 0;
 }
