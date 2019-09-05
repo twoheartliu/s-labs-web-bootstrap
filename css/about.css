@@ -388,14 +388,15 @@ blockquote {
   margin: 10px 0 20px 0;
 }
 .event_list h3 {
-  margin: 0 0 10px 132px;
+  margin: 0 0 10px 131px;
   font-size: 24px;
   font-family: Georgia;
   color: #555f73;
-  padding-left: 25px;
-  background: url("../img/jian.png") 0 -45px no-repeat;
+  padding-left: 60px;
+  background: url("../source/251567652138_.pic_hd.jpg") no-repeat center left;
+  background-size: 20px;
   /* border: 1px solid red; */
-  height: 38px;
+  height: 30px;
   line-height: 30px;
   font-style: italic;
 }
