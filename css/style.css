@@ -196,7 +196,7 @@ p {
 
 h2.tittle {
   text-align: center;
-  font-size: 36px;
+  font-size: 30px;
   color: #00a0af;
 }
 
@@ -207,14 +207,14 @@ h3.tittle {
 }
 
 .about-grid h4 {
-  font-size: 32px;
+  font-size: 18px;
   text-transform: capitalize;
   color: #2f455d;
   padding: 0.3em 0;
 }
 
 .about-grid h4 img {
-  width: 32px;
+  width: 20px;
   height: 38px;
   object-position: center center;
   object-fit: contain;
@@ -263,7 +263,7 @@ p.about-text {
 
 .services {
   background: #013040;
-  padding: 5em 0;
+  padding: 3em 0;
 }
 
 .ser-left {
@@ -274,7 +274,7 @@ p.about-text {
 
 .ser-right {
   /* float: left; */
-  width: 220px;
+  width: 230px;
   /* height: 200px; */
   font-size: 16px;
   padding: 10px;
@@ -283,7 +283,7 @@ p.about-text {
 
 .ser-right ol li {
   /* float: left; */
-  font-size: 16px;
+  font-size: 14px;
   color: whitesmoke;
   line-height: 2;
   /* border: 1px solid blue; */
@@ -303,7 +303,7 @@ p.about-text {
 }
 
 .ser-right img {
-  height: 100px;
+  height: 70px;
   object-position: center center;
   object-fit: contain;
 }

@@ -47,6 +47,7 @@
 .content .container .introduction h2 {
   font-size: 28px;
   margin: 40px 0;
+  text-align: center;
 }
 .content .container .introduction .contents {
   margin-left: 40px;
@@ -71,4 +72,10 @@
 }
 .banner-container .introduction h1 {
   margin-bottom: 10px;
+}
+#logic h2 {
+  margin-bottom: 0;
+}
+#logic .contents {
+  margin: 0;
 }

@@ -290,6 +290,7 @@ nav.nav-class > ul > li {
 
 #swiper_container {
   border-top: 80px solid white;
+  position: relative;
 }
 
 .main {
@@ -335,7 +336,7 @@ nav.nav-class > ul > li {
             white-space: nowrap;
             text-overflow: ellipsis;
             // border: 1px solid blue;
-            font-size: 18px;
+            font-size: 16px;
             color: #2f455d;
           }
           .time {
@@ -402,18 +403,37 @@ nav.nav-class > ul > li {
 .playIcon {
   position: absolute;
   display: block;
-  top: 0;
+  top: 450px;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
   z-index: 999;
   // border: 1px solid red;
-  width: 100px;
-  height: 100px;
+  background: transparent;
+  width: 70px;
+  height: 70px;
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.servce-items {
+  transition: all 0.5s;
+  padding: 15px !important;
+  h4 {
+    color: #555f73;
+  }
+  p {
+    height: 50px;
+  }
+}
+.servce-items:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px #999;
+  h4 {
+    color: black;
   }
 }
