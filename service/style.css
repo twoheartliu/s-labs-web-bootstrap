@@ -120,6 +120,7 @@
   margin: 10px;
 }
 .content .container .introduction .lists section .content {
+  width: 400px;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
