@@ -214,7 +214,8 @@
       <!-- Swiper -->
       <div class="swiper-container" id="swiper_container">
         <div class="banner-container">
-          <video controls preload="auto">
+          <img src="../source/play.svg" alt="" class="noplay" id="playIcon" />
+          <video preload="auto" poster="transparent.png">
             <source src="../source/video/v2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -499,18 +500,25 @@
       //     prevEl: ".swiper-button-prev"
       //   }
       // });
-      /*鼠标移入停止轮播，鼠标离开 继续轮播*/
-      // var comtainer = document.getElementById('swiper_container');
-      // var video = document.querySelector('video');
-      // console.log('video', video.playing);
-      // comtainer.onclick = function () {
-      // 	console.log('mouse enter')
-      // 	swiper.autoplay = !(swiper.autoplay);
-      // };
-      // comtainer.onmouseleave = function () {
-      // 	console.log('mouse leave')
-      // 	swiper.autoplay = true;
-      // }
+      const video = document.querySelector("video");
+      const playIcon = document.querySelector("#playIcon");
+      video.addEventListener("click", () => {
+        if (
+          !(
+            video.paused ||
+            video.ended ||
+            video.seeking ||
+            video.readyState < video.HAVE_FUTURE_DATA
+          )
+        ) {
+          video.pause();
+          playIcon.classList.remove("play");
+          playIcon.classList.add("noplay");
+        } else {
+          video.play();
+          playIcon.classList.add("play");
+        }
+      });
     </script>
 
     <script type="text/javascript">
@@ -524,8 +532,8 @@
           var height = bHeight;
           iframe.height = height;
           // console.log(height);
-          console.log(bHeight);
-          console.log(dHeight);
+          // console.log(bHeight);
+          // console.log(dHeight);
         } catch (ex) {}
       }
       // reinitIframe();
