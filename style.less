@@ -299,11 +299,59 @@ nav.nav-class > ul > li {
 }
 
 #news {
-  .journal-grids {
-    p.jour-text {
+  .container {
+    // border: 1px solid red;
+    .box {
       // border: 1px solid red;
-      margin-top: 40px;
-      padding: 0;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      margin-top: 30px;
+      .articles {
+        display: flex;
+        flex-flow: column wrap;
+        transition: all 0.5s;
+        box-shadow: 0 0 10px #f1eded;
+        // border: 1px solid red;
+        a {
+          text-decoration: none;
+        }
+        img {
+          width: 268px;
+          height: 200px;
+          // border: 1px solid red;
+          object-position: center center;
+          object-fit: cover;
+        }
+        .desc {
+          padding: 5px;
+          margin: 0 10px;
+          // border: 1px solid red;
+          .title {
+            width: 238px;
+            height: 40px;
+            line-height: 40px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            // border: 1px solid blue;
+            font-size: 18px;
+            color: #2f455d;
+          }
+          .time {
+            width: 238px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            // border: 1px solid blue;
+            color: #999;
+          }
+        }
+      }
+      .articles:hover {
+        // border: 1px solid black;
+        transform: translateY(-10px);
+      }
     }
   }
 }

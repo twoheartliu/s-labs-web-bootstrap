@@ -242,9 +242,50 @@ nav.nav-class > ul > li {
 .main #swiper_container {
   border-top: 0px solid white;
 }
-#news .journal-grids p.jour-text {
-  margin-top: 40px;
-  padding: 0;
+#news .container .box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+#news .container .box .articles {
+  display: flex;
+  flex-flow: column wrap;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px #f1eded;
+}
+#news .container .box .articles a {
+  text-decoration: none;
+}
+#news .container .box .articles img {
+  width: 268px;
+  height: 200px;
+  object-position: center center;
+  object-fit: cover;
+}
+#news .container .box .articles .desc {
+  padding: 5px;
+  margin: 0 10px;
+}
+#news .container .box .articles .desc .title {
+  width: 238px;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  color: #2f455d;
+}
+#news .container .box .articles .desc .time {
+  width: 238px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #999;
+}
+#news .container .box .articles:hover {
+  transform: translateY(-10px);
 }
 .iframes h2 {
   font-size: 30px !important;
