@@ -292,3 +292,49 @@ nav.nav-class > ul > li {
   margin: 0 auto;
   text-align: center;
 }
+.video-container {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  border: 1px solid red;
+}
+.video-container img.play {
+  width: 80px;
+  display: block;
+  position: fixed;
+  right: 3vw;
+  top: 30px;
+}
+.video-container video.play {
+  position: fixed;
+  width: 80vw;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  margin: auto;
+}
+.playIcon:hover,
+.video-control:hover {
+  cursor: pointer;
+}
+.noplay {
+  display: none;
+}
+.playIcon {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 999;
+  width: 100px;
+  height: 100px;
+}
+.playIcon img {
+  width: 100px;
+  height: 100px;
+}

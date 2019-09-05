@@ -35,6 +35,12 @@
   right: 0;
   bottom: 0;
   margin: auto;
+  width: 150px;
+  height: 150px;
+  z-index: 999;
+}
+.banner-container #playIcon:hover {
+  cursor: pointer;
 }
 .banner-container img.play {
   display: none;

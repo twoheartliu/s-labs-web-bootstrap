@@ -502,6 +502,23 @@
       // });
       const video = document.querySelector("video");
       const playIcon = document.querySelector("#playIcon");
+      playIcon.addEventListener("click", () => {
+        if (
+          !(
+            video.paused ||
+            video.ended ||
+            video.seeking ||
+            video.readyState < video.HAVE_FUTURE_DATA
+          )
+        ) {
+          video.pause();
+          playIcon.classList.remove("play");
+          playIcon.classList.add("noplay");
+        } else {
+          video.play();
+          playIcon.classList.add("play");
+        }
+      });
       video.addEventListener("click", () => {
         if (
           !(

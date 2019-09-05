@@ -209,6 +209,10 @@
       </div>
       <!-- Swiper -->
       <div class="swiper-container" id="swiper_container">
+        
+          <div class="playIcon">
+              <img src="./source/play.svg" alt="">
+            </div>
         <div class="swiper-wrapper">
           <div class="swiper-slide">
               <picture style="width: 100%;">
@@ -234,7 +238,7 @@
               style="width:100vw;height: 560px;object-position: center center;
                 object-fit: cover;"
             /> -->
-          </div>
+          </div>          
           <div class="swiper-slide">
               <picture style="width: 100%;">
                   <source srcset="./source/banner/小banner3_optimized.png" media="(max-width: 1400px)" >
@@ -1140,13 +1144,39 @@
           </p>
         </div>
         <div class="video-container">
-            <video preload="auto" poster="">
+          <img src="./source/close.svg" alt="" class="video-control noplay">
+          <div id="video">
+            <video preload="auto" poster="" class="noplay" controls>
                 <source src="./source/video/v1.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
+          </div>
+            
         </div>
       </div>
     </div>
+    <script>
+      const videoControl = document.querySelector('.video-control');
+      const video = document.querySelector('video');
+      const playIcon = document.querySelector('.playIcon')
+      playIcon.addEventListener('click', () => {
+        videoControl.classList.remove('noplay');
+        videoControl.classList.add('play');
+
+        video.classList.remove('noplay')
+        video.classList.add('play');
+        video.currentTime = 0;
+        video.play();
+      })
+      videoControl.addEventListener('click', () => {
+        video.pause();
+        video.classList.remove('play');
+        video.classList.add('noplay');
+
+        videoControl.classList.remove('play');
+        videoControl.classList.add('noplay');
+      })
+    </script>
     <script type="text/javascript">
       $(document).ready(function() {
         /*
