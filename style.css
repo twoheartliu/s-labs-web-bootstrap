@@ -45,7 +45,8 @@ body {
 }
 .navbar-nav {
   font-size: 16px !important;
-  margin-left: 80px;
+  margin-left: 90px;
+  margin-top: 10px;
 }
 .navbar-nav li a.scroll {
   margin: 0 20px;
@@ -356,4 +357,16 @@ nav.nav-class > ul > li {
 }
 .servce-items:hover h4 {
   color: black;
+}
+.s-labs-logo {
+  border: 1px solid red;
+  display: absolute;
+  width: 100px;
+  top: 100px;
+}
+.s-labs-logo img {
+  height: 100px;
+  margin-top: 5px;
+  object-position: center center;
+  object-fit: cover;
 }
