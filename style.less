@@ -373,6 +373,31 @@ nav.nav-class > ul > li {
     line-height: 1.1;
     color: inherit;
   }
+  .boxs {
+    display: flex;
+    flex-flow: row wrap;
+    .img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // border: 1px solid red;
+      img {
+        object-position: center center;
+        object-fit: cover;
+        width: 700px;
+        height: 250px;
+      }
+    }
+    p {
+      color: #002e3f;
+      font-weight: 550;
+    }
+  }
+
+  .contents {
+    margin: 0 auto;
+    // text-align: center;
+  }
 }
 
 .video-container {

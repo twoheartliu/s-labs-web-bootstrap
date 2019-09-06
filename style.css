@@ -301,6 +301,28 @@ nav.nav-class > ul > li {
   line-height: 1.1;
   color: inherit;
 }
+.iframes .boxs {
+  display: flex;
+  flex-flow: row wrap;
+}
+.iframes .boxs .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iframes .boxs .img img {
+  object-position: center center;
+  object-fit: cover;
+  width: 700px;
+  height: 250px;
+}
+.iframes .boxs p {
+  color: #002e3f;
+  font-weight: 550;
+}
+.iframes .contents {
+  margin: 0 auto;
+}
 .video-container {
   position: fixed !important;
   top: 0;
