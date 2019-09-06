@@ -255,6 +255,7 @@ nav.nav-class > ul > li {
   flex-flow: column wrap;
   transition: all 0.5s;
   box-shadow: 0 0 10px #f1eded;
+  border-radius: 5px;
 }
 #news .container .box .articles a {
   text-decoration: none;
@@ -263,6 +264,7 @@ nav.nav-class > ul > li {
   width: 268px;
   height: 200px;
   object-position: center center;
+  border-radius: 5px;
   object-fit: cover;
 }
 #news .container .box .articles .desc {
@@ -290,9 +292,14 @@ nav.nav-class > ul > li {
   transform: translateY(-10px);
 }
 .iframes h2 {
-  font-size: 30px !important;
+  font-size: 28px;
   margin: 0 auto;
+  margin-bottom: 10px;
   text-align: center;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
 }
 .video-container {
   position: fixed !important;
@@ -344,6 +351,8 @@ nav.nav-class > ul > li {
 .servce-items {
   transition: all 0.5s;
   padding: 15px !important;
+  border-radius: 5px;
+  padding: 0 2px;
 }
 .servce-items h4 {
   color: #555f73;

@@ -146,7 +146,8 @@
         flex-flow: row wrap;
         justify-content: space-between;
         section {
-          border: 1px solid #93b2bb;
+          // border: 1px solid #93b2bb;
+          box-shadow: 0 0 10px #f1eded;
           width: 532px;
           height: 138px;
           display: flex;
@@ -186,6 +187,42 @@
     }
   }
 }
+.content {
+  // .banners {
+  // height: 420px;
+  .container {
+    // border: 1px solid red;
+    .introduction {
+      font-size: 18px;
+      margin-bottom: 40px;
+      h2 {
+        font-size: 28px;
+        margin: 40px 0;
+        text-align: center;
+      }
+      .contents {
+        margin-left: 40px;
+        margin-top: 20px;
+        // border: 1px solid red;
+        p {
+          margin-top: 40px;
+          font-weight: 600;
+          color: black;
+        }
+        img {
+          width: 100%;
+          max-width: 1040px;
+          object-position: center center;
+          object-fit: contain;
+        }
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  // }
+}
 
 .banner-container {
   .introduction {
@@ -196,5 +233,87 @@
     h1 {
       margin-bottom: 10px;
     }
+  }
+}
+
+.middle-area {
+  // border: 1px solid red;
+  background: #f5f6f6;
+  padding: 20px 0;
+  h2 {
+    margin: 30px auto !important;
+    // border: 1px solid red;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    object-position: center center;
+    object-fit: contain;
+    padding: 30px;
+    padding-top: 0;
+  }
+  .lists {
+    // border: 1px solid red;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    section {
+      // border: 1px solid #93b2bb;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #f1eded;
+      width: 532px;
+      height: 138px;
+      display: flex;
+      margin: 10px;
+      background: #fff;
+      .content {
+        // border: 1px solid red;
+        width: 400px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        // padding: 0 15px;
+        p {
+          font-size: 16px;
+          color: black;
+          padding: 5px 10px;
+        }
+        span {
+          font-size: 14px;
+          padding: 0 10px;
+        }
+      }
+      .img {
+        height: 138px;
+        width: 138px;
+        // border: 1px solid blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          display: block;
+          width: 56px;
+          height: 56px;
+          object-position: center center;
+          object-fit: contain;
+          // border: 1px solid red;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+#content {
+  .about-w3 {
+    padding: 0;
+  }
+  // background: #000;
+}
+
+.content {
+  .about-w3 {
+    padding-top: 0;
   }
 }

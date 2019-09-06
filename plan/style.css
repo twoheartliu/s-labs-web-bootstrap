@@ -64,6 +64,9 @@
   object-position: center center;
   object-fit: contain;
 }
+.content .container .introduction .contents span {
+  font-size: 16px;
+}
 .banner-container .introduction {
   color: #fff;
   line-height: 2;

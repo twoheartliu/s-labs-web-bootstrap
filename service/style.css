@@ -113,7 +113,7 @@
   justify-content: space-between;
 }
 .content .container .introduction .lists section {
-  border: 1px solid #93b2bb;
+  box-shadow: 0 0 10px #f1eded;
   width: 532px;
   height: 138px;
   display: flex;
@@ -147,6 +147,33 @@
   object-position: center center;
   object-fit: contain;
 }
+.content .container .introduction {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.content .container .introduction h2 {
+  font-size: 28px;
+  margin: 40px 0;
+  text-align: center;
+}
+.content .container .introduction .contents {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.content .container .introduction .contents p {
+  margin-top: 40px;
+  font-weight: 600;
+  color: black;
+}
+.content .container .introduction .contents img {
+  width: 100%;
+  max-width: 1040px;
+  object-position: center center;
+  object-fit: contain;
+}
+.content .container .introduction .contents span {
+  font-size: 16px;
+}
 .banner-container .introduction {
   color: #fff;
   line-height: 2;
@@ -155,4 +182,70 @@
 }
 .banner-container .introduction h1 {
   margin-bottom: 10px;
+}
+.middle-area {
+  background: #f5f6f6;
+  padding: 20px 0;
+}
+.middle-area h2 {
+  margin: 30px auto !important;
+  text-align: center;
+}
+.middle-area img {
+  width: 100%;
+  object-position: center center;
+  object-fit: contain;
+  padding: 30px;
+  padding-top: 0;
+}
+.middle-area .lists {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.middle-area .lists section {
+  border-radius: 5px;
+  box-shadow: 0 0 10px #f1eded;
+  width: 532px;
+  height: 138px;
+  display: flex;
+  margin: 10px;
+  background: #fff;
+}
+.middle-area .lists section .content {
+  width: 400px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.middle-area .lists section .content p {
+  font-size: 16px;
+  color: black;
+  padding: 5px 10px;
+}
+.middle-area .lists section .content span {
+  font-size: 14px;
+  padding: 0 10px;
+}
+.middle-area .lists section .img {
+  height: 138px;
+  width: 138px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle-area .lists section .img img {
+  display: block;
+  width: 56px;
+  height: 56px;
+  object-position: center center;
+  object-fit: contain;
+  padding: 0;
+}
+#content .about-w3 {
+  padding: 0;
+}
+.content .about-w3 {
+  padding-top: 0;
 }
