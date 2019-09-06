@@ -103,6 +103,7 @@
 .container .article-details header .right .time {
   width: 100px;
   height: 26px;
+  line-height: 26px;
 }
 .container .article-details main {
   width: 100%;
@@ -116,4 +117,7 @@
 }
 .container .article-details main section {
   margin: 10px 0;
+}
+.container .article-details main section p {
+  margin: 5px;
 }
