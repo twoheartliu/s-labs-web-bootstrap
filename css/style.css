@@ -1011,6 +1011,9 @@ p.jour-link a:hover {
 .footer a:hover {
   color: #fff !important;
 }
+.footer .contactMe p {
+  color: #afafb0 !important;
+}
 .show {
   padding: 5em 0;
 }

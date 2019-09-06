@@ -1041,11 +1041,6 @@
   </div>
   <div class="footer" id="contact">
     <div class="container">
-      <div style="margin:0 auto; text-align: center;margin-bottom: 30px;">
-        <img src="./source/footer-logo.png" style="width: 100px;object-position:center center;object-fit: cover;"
-          alt="" />
-      </div>
-
       <div class="footer-top">
         <div class="col-md-3 footer-left">
           <h4>产品服务</h4>
@@ -1080,6 +1075,14 @@
             <a href="./plan/finance.html">供应链金融</a>
           </p>
         </div>
+        <div class="col-md-2 footer-right">
+            <!-- <h4>微信公众号</h4> -->
+            
+        <div style="margin:0 auto; text-align: center;margin-bottom: 30px;">
+            <img src="./source/footer-logo.png" style="width: 100px;object-position:center center;object-fit: cover;"
+              alt="" />
+          </div>            
+          </div>
         <div class="col-md-3 footer-left">
           <h4>关于我们</h4>
           <p>
@@ -1095,20 +1098,10 @@
             <a href="./about/join.html">加入我们</a>
           </p>
         </div>
-        <div class="col-md-2 footer-right">
-          <!-- <h4>微信公众号</h4> -->
-          <div style="width: 100%;text-align: center;">
-            <img src="./source/QR-code.jpeg" style="width: 100px;object-position: center center;object-fit: cover;"
-              alt="" />
-          </div>
-          <div style="margin: 0 auto;text-align: center;">
-            <p>链平方</p>
-            <p>微信公众号</p>
-          </div>
-        </div>
-        <div class="col-md-2 footer-right">
+        
+        <div class="col-md-2 footer-right" >
           <h4>联系我们</h4>
-          <div style="width: 100%;">
+          <div style="width: 100%;" class="contactMe">
             <p>联系人： 黄小姐</p>
             <p>
               电话：010-84722501
@@ -1122,6 +1115,16 @@
           </div>
         </div>
         <div class="clearfix"></div>
+        <div class="qr-code">
+            <div style="width: 100%;text-align: center;">
+                <img src="./source/QR-code.jpeg" style="width: 100px;object-position: center center;object-fit: cover;"
+                  alt="" />
+              </div>
+              <div style="margin: 0 auto;text-align: center;" class="qr-content">
+                <p>关注链平方</p>
+                <p>微信公众号</p>
+              </div>
+        </div>        
       </div>
       <div class="footer-text">
         <p>
@@ -1248,6 +1251,16 @@
       // 	console.log('mouse leave')
       // 	swiper.autoplay = true;
       // }
+      const qrCode = document.querySelector('.qr-code')
+      const qrcontent = document.querySelector('.qr-content');
+      qrCode.addEventListener('mouseover', () => {
+        console.log('mouse i')
+        qrcontent.classList.add('active');
+      })
+      qrCode.addEventListener('mouseout', () => {
+        console.log('mouse out')
+        qrcontent.classList.remove('active');
+      })
   </script>
 </body>
 

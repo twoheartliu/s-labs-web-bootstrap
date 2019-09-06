@@ -379,3 +379,16 @@ nav.nav-class > ul > li {
   object-position: center center;
   object-fit: cover;
 }
+.qr-code {
+  position: fixed;
+  right: 0;
+  bottom: 20vh;
+  z-index: 999;
+}
+.qr-code .qr-content {
+  display: none;
+}
+.qr-code .active {
+  background: #9999;
+  display: block;
+}
