@@ -188,7 +188,8 @@
   padding: 20px 0;
 }
 .middle-area h2 {
-  margin: 30px auto !important;
+  margin: 30px auto;
+  margin-bottom: 25px;
   text-align: center;
 }
 .middle-area img {
